@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="clock"/>
+    <CheckBoxPreference
+        android:key="brevent" />
+    <CheckBoxPreference
+        android:key="charging" />
+    <CheckBoxPreference
+        android:key="hide" />
+    <PreferenceCategory android:title="@string/author" />
+    <PreferenceScreen
+        android:key="author" />
+    <PreferenceScreen
+        android:key="github" />
+    <PreferenceCategory android:title="@string/net" />
+    <PreferenceScreen
+        android:key="weiyun" />
+    <PreferenceScreen
+        android:key="baidu" />
+</PreferenceScreen>
